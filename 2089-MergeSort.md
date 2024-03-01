@@ -1,5 +1,7 @@
 # MergeSort 2089. Find Target Indices After Sorting Array
 
+Learning how to use merge sort as it performs faster i.e. n log n. Selection sort is n2 which is not optimum!
+
 
 ## Question
 

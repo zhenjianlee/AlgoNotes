@@ -1,4 +1,5 @@
 # 162. Find Peak Element
+Refresh memory on using binary search for searching peaks
 
 
 ## Question
