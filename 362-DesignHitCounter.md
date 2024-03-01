@@ -1,4 +1,9 @@
 # 362. Design Hit Counter
+
+The most interesting question in LeetCode I came accross! I get to write my own class and methods and use it.
+
+## Question Description
+
 Solved
 Medium
 Topics
@@ -45,6 +50,9 @@ Constraints:
  
 
 Follow up: What if the number of hits per second could be huge? Does your design scale?
+
+
+## Code
 
 ```java
 
