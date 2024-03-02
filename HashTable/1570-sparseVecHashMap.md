@@ -54,7 +54,7 @@ Constraints:
 ```java
 class SparseVector {
 
-    HashMap<Integer,Integer>map;
+    private HashMap<Integer,Integer>map;
     
     SparseVector(int[] nums) {
         map = new HashMap<>();
