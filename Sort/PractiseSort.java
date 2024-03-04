@@ -31,7 +31,7 @@ public class PractiseSort{
 
             if (array4[i] != array2[i]){
                 test=false;
-                System.out.println("Insertion sort failed");
+                // System.out.println("Insertion sort failed");
             }
 
             if (array4[i] != array3[i]){
