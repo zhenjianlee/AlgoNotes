@@ -8,6 +8,8 @@ Transferring all notes into GitHub from cloud services ...
 ## Data Structures Operations
 ![alt text](/Assets/image-1.png)
 
+![alt text](/Assets/dsclass.png)
+
 ## Array Sorting Algos
 ![alt text](/Assets/image-2.png)
 
