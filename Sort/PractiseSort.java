@@ -5,9 +5,10 @@ import java.util.Arrays;
 public class PractiseSort{
 
     public static void main(String[] args){
+        System.out.println("========== BEGIN ==========");
         int len = 10000;
         int min=0;
-        int max=10000;
+        int max=10001;
         int[] array1 = new int[len];
         for (int i=0; i<len;i++){
             int rando = (int)(Math.random()*(max-min));
