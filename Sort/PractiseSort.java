@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class PractiseSort{
 
     public static void main(String[] args){
-        int len = 100000;
-        int range = 20000;
+        int len = 10000;
+        int min=0;
+        int max=10000;
         int[] array1 = new int[len];
         for (int i=0; i<len;i++){
-            int rando = (int)Math.random()*range;
+            int rando = (int)(Math.random()*(max-min));
             array1[i]=rando;
         }
 
@@ -21,22 +22,25 @@ public class PractiseSort{
         insertionSort(array2);
         mergeSortMain(array3);
         librarySort(array4);
-
+        printArray(array1);
         boolean test = true;
         for (int i=0 ; i<array1.length;i++){
             if (array4[i] != array1[i]){
                 test=false;
                 System.out.println("Selection sort failed");
+                break;
             }
 
             if (array4[i] != array2[i]){
                 test=false;
                 // System.out.println("Insertion sort failed");
+                break;
             }
 
             if (array4[i] != array3[i]){
                 test=false;
                 System.out.println("Merge sort failed");
+                break;
             }
         }
 
@@ -54,19 +58,21 @@ public class PractiseSort{
 
     private static void selectionSort(int[]a){
         long start = System.nanoTime();
-        for (int i=0; i<a.length; i++){
-            int min= Integer.MAX_VALUE;
-            int minIdx = 0;
-            for (int j=i; j<a.length;j++){
-                if (a[j]<= min){
+        for (int i=0; i< a.length;i++){
+            int min=a[i];
+            int idxMin=i;
+            for (int j=i;j<a.length; j++){
+                if (a[j]< min){
                     min= a[j];
-                    minIdx=j;
+                    idxMin=j;
                 }
-                int temp = a[i];
-                a[i]=a[minIdx];
-                a[minIdx]=temp;
+
             }
+            int temp = a[i];
+            a[i]=min;
+            a[idxMin]=temp;
         }
+       
         long end = System.nanoTime();
         System.out.println("Selection sort! Time taken="+(end-start)+ " ns");
         //printArray(a);
