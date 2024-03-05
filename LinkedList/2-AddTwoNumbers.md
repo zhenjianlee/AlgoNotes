@@ -1,6 +1,6 @@
 # 2. Add Two Numbers
 
-Previously used a silly method (Big Integer). Got scolded. So now I implement a proper solution using carry.
+Previously used a 'stupid' method (Big Integer) to solve this issue which is not correct. Got scolded. So now I implement a proper solution using carry.
 
 Succesfully completed early morning 1am of 5th March 2024. Took me 1 hour 20 mins to figure it out. It's a small win for me today. Very tired. Going to sleep now.
 
@@ -21,10 +21,14 @@ Example 1:
 Input: l1 = [2,4,3], l2 = [5,6,4]
 Output: [7,0,8]
 Explanation: 342 + 465 = 807.
+
+
 Example 2:
 
 Input: l1 = [0], l2 = [0]
 Output: [0]
+
+
 Example 3:
 
 Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
@@ -58,7 +62,7 @@ class Solution {
         ListNode curNode2 = l2;
 
         ListNode res = new ListNode();
-        // wrong because this was not implemented previously!
+        // wrong because this was not implemented previously! See Note-A Below
         ListNode curRes = res;
 
         int num1=0;
@@ -100,9 +104,24 @@ class Solution {
     }
 }
 
+/* Note -A
+initialize curRes as ListNode curRes = res;, create a reference to the same ListNode that res is pointing to. 
+This is done so that curRes can move along the result linked list as new nodes area added to it. 
+Without this reference,  cannot keep track of the head of  result linked list, 
+and will lose the reference to it, which is necessary for returning the full linked list.
+*/
+
 ```
 
-## My silly solution - 53ms 5.03%
+## My stupid solution - 53ms 5.03%
+
+Change the linked list into two strings. Then reverse the string. Then convert the strings into BigInteger and add them together.
+
+Then reverse the biginteger and put it back into the linked list again.
+
+A quick fix but not the correct way to do things.
+
+If implemented during coding challenge interviewer will raise eyebrows.
 
 ```java
 /**
