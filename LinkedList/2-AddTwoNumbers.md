@@ -41,7 +41,9 @@ The number of nodes in each linked list is in the range [1, 100].
 0 <= Node.val <= 9
 It is guaranteed that the list represents a number that does not have leading zeros.
 
-## My proper solution - 1ms 100%
+## My proper solution - 1ms 100% - 4th March 2024
+
+Two months later, after more leetcode practise and learning proper algo methods, i came back to solve this problem the proper way.
 
 ```java
 
@@ -113,7 +115,7 @@ and will lose the reference to it, which is necessary for returning the full lin
 
 ```
 
-## My stupid solution - 53ms 5.03%
+## My stupid solution - 53ms 5.03% - 5th Jan 2024
 
 Change the linked list into two strings. Then reverse the string. Then convert the strings into BigInteger and add them together.
 
