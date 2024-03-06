@@ -3,7 +3,7 @@
 ![alt text](../Assets/dfs.png)
 
 
-## (Blue) Inoder Traversal - Gives Nodes in decreasing order
+## (Blue) Inoder Traversal - Gives Nodes in increasing order
 
 Algorithm Inorder(tree)
 1. Traverse the left subtree, i.e., call Inorder(left->subtree)
