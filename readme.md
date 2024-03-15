@@ -1,5 +1,11 @@
 # Note to self - A leetcode a day keeps the brain decay away~
-Transferring all notes into GitHub from cloud services ...
+
+## Simple algorithms to practise (so far 2 interview hits)
+https://www.digitalocean.com/community/tutorials/java-programming-interview-questions
+
+## LeetCode Diary
+
+240315 - 124 solved | 91 easy | 33 medium - revising simple questions
 
 ## Big O Complexity Chart
 
@@ -16,3 +22,4 @@ Transferring all notes into GitHub from cloud services ...
 
 ## Resources
 https://www.bigocheatsheet.com/
+

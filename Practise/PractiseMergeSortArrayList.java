@@ -3,7 +3,7 @@ package Practise;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class PractiseMisc {
+public class PractiseMergeSortArrayList {
 
     public static void main(String[] args){
 
