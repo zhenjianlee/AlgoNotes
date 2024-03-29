@@ -1,7 +1,10 @@
 # Note to self - A leetcode a day keeps the brain decay away~
 
-## Simple algorithms to practise (so far 2 interview hits)
-https://www.digitalocean.com/community/tutorials/java-programming-interview-questions
+## Good Reads
+
+1. Digital Ocean - https://www.digitalocean.com/community/tutorials/java-programming-interview-questions
+
+2. Epam - https://www.interviewbit.com/epam-interview-questions/
 
 ## LeetCode Diary
 
@@ -19,6 +22,10 @@ https://www.digitalocean.com/community/tutorials/java-programming-interview-ques
 
 ## Array Sorting Algos
 ![alt text](/Assets/image-2.png)
+
+## Java Collections Framework
+
+![collections](/Assets/collection.png)
 
 ## Resources
 https://www.bigocheatsheet.com/
