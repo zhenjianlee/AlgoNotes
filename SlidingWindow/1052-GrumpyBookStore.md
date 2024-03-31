@@ -1,5 +1,6 @@
 # 1052- Grumpy Bookstore Owner
-Medium
+
+Medium - Good sliding window question  - will test understanding on manipulating the window size (shrinking)
 
 ## The Question
 
@@ -31,6 +32,47 @@ Constraints:
     1 <= minutes <= n <= 2 * 104
     0 <= customers[i] <= 1000
     grumpy[i] is either 0 or 1.
+
+
+## Second attempt after learning from Crisa Gazzola - 3ms, 93.3%
+
+```java
+
+class Solution {
+    public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
+
+        int len = customers.length;
+        int sum=0;
+
+        for (int i=0; i<len ; i ++){
+            if (grumpy[i]==0){
+                sum += customers[i];
+            }
+        }
+
+        int addSum=0;
+        int maxSum=0;
+        int windowStart=0;
+
+        for (int j=0; j<len;j++){
+            if (grumpy[j]==1){
+                addSum+=customers[j];
+            }
+
+            while (j-windowStart+1>=minutes){
+                maxSum = Math.max(maxSum,addSum);
+                if (grumpy[windowStart]==1){
+                    addSum-=customers[windowStart];
+                }
+                windowStart++;
+            }
+        }
+        return sum+maxSum;
+    } 
+}
+
+```
+
 
 ## Proper solution to study - Crisa Gazzola https://leetcode.com/crisa/
 
@@ -81,7 +123,7 @@ public int maxSatisfied(int[] customers, int[] grumpy, int X) {
 
 ```
 
-## My solution -73ms 9.45% (Not optimal)
+## My first solution (bruteForce , not Sliding Window )-73ms 9.45% (Not optimal)
 
 ```java
 
