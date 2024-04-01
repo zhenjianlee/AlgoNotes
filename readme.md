@@ -8,7 +8,11 @@
 
 ## LeetCode Diary
 
+Leetcode Profile : https://leetcode.com/zhenjianlee/
+
 240315 - 124 solved | 91 easy | 33 medium - revising simple questions
+
+240401 - 135 solved | 94 easy | 41 medium - revised basic algo + new questions
 
 ## Big O Complexity Chart
 
