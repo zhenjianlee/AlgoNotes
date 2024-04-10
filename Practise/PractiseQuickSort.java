@@ -98,6 +98,20 @@ public class PractiseQuickSort {
         quickSort(arr, pivot + 1, end);
     }
 
+     /*
+            CASE 1 [pivot at end]- i coming from left, swap if ar[i] is smaller than pivot
+            i.e. keep all small values to the left
+                i
+            {1, 2, 5, 3, 7, 9, 8}
+                            j
+
+            CASE2 [pivot at start] - i coming form the right, swap if ar[i] is bigger than pivor
+            i.e. keep all big values to the right
+                      j
+            {3, 2, 1, 5, 8, 7, 9}
+                i
+        */
+
     private static int partition(int[] arr, int start, int end) {
         int pivot = arr[end];
         int i = start - 1;

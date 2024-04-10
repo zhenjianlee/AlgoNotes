@@ -6,13 +6,17 @@
 
 2. Epam - https://www.interviewbit.com/epam-interview-questions/
 
-## LeetCode Diary
+## LeetCode / HackerRank Diary
 
 Leetcode Profile : https://leetcode.com/zhenjianlee/
 
-240315 - 124 solved | 91 easy | 33 medium - revising simple questions
+HackerRank Profile : https://www.hackerrank.com/profile/zhenjianlee
 
-240401 - 135 solved | 94 easy | 41 medium - revised basic algo + new questions
+240315 - Leet 124 solved | 91 easy | 33 medium - revising simple questions
+
+240401 - Leet 135 solved | 94 easy | 41 medium - revised basic algo + new questions
+
+240410 - Hacker Problemsolving: 4 stars
 
 ## Big O Complexity Chart
 
