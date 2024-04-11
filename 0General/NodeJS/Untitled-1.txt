@@ -1,0 +1,9 @@
+graph[0][1] -> edge from node 0 to 1
+graph[3][0] -> edge from node 3 to 0
+
+graph[i][j] -> edge from node i to node j
+
+node 0 1 2 3 4 
+
+minDistance -> array of n elements
+minDistance[i] -> min distance from node 0 to node i
