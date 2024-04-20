@@ -20,20 +20,20 @@ HackerRank Profile : https://www.hackerrank.com/profile/zhenjianlee
 
 ## Big O Complexity Chart
 
-![https://www.bigocheatsheet.com/](./Assets/bigO.png)
+![https://www.bigocheatsheet.com/](/Assets/bigO.png)
 
 
 ## Data Structures Operations
-![alt text](./Assets/image-1.png)
+![alt text](/Assets/image-1.png)
 
-![alt text](./Assets/dsclass.png)
+![alt text](/Assets/dsclass.png)
 
 ## Array Sorting Algos
-![alt text](./Assets/image-2.png)
+![alt text](/Assets/image-2.png)
 
 ## Java Collections Framework
 
-![collections](./Assets/collection.png)
+![collections](/Assets/collection.png)
 
 ## Resources
 https://www.bigocheatsheet.com/
