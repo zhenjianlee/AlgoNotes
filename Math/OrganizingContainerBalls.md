@@ -19,7 +19,6 @@ I think a little simpler to explain is:
 3. Sort both tables
 4. If they are identical print Possible, otherwise print Impossible
 
-
 ```java
 public static String organizingContainers(List<List<Integer>> container) {
     // Write your code here
