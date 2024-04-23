@@ -16,8 +16,6 @@ The moment the condition no longer meets above, it means the current node has en
 
 You are given pointer to the root of the binary search tree and two values  and . You need to return the lowest common ancestor (LCA) of  and  in the binary search tree.
 
-https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem?isFullScreen=true
-
 
 ## Solving Iteratively
 
