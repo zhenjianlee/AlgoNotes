@@ -1,6 +1,12 @@
 # JavaScript Node.Js - Prototype Inheritance
 
+Prototype inheritance is not the same as class inheritance. Prototype inheritance is a function type. That is why it is declared as a function, not a class. Cannot use extends. Need to call the function and add .prototype.
+
+See the hackerrank tutorial below.
+
 Came accross this while doing HackerRank TikTok Technical Assesment for Internship
+
+Tutorial here :- https://www.hackerrank.com/challenges/js10-inheritance/topics
 
 ## Theory
 

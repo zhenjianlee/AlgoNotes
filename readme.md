@@ -18,6 +18,8 @@ HackerRank Profile : https://www.hackerrank.com/profile/zhenjianlee
 
 240410 - Hacker Problemsolving: 4 stars
 
+240425 - Leet 154 solved | 106 easy | 48 medium && Hacker ProblemSolving 5 Stars
+
 ## Big O Complexity Chart
 
 ![https://www.bigocheatsheet.com/](./Assets/bigO.png)
